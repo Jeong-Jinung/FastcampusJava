@@ -1,6 +1,7 @@
 package Chapter12.Stream;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Stream;
 
@@ -19,5 +20,8 @@ public class ArrayListStreamTest {
     sList.stream().sorted().forEach(s -> System.out.print(s + " "));
     System.out.println();
     sList.stream().map(s -> s.length()).forEach(n->System.out.println(n));
+
+
+
   }
 }
